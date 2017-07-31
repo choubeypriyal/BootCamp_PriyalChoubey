@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/BootCamp_PriyalChoubey.iml" filepath="$PROJECT_DIR$/.idea/BootCamp_PriyalChoubey.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day10-MapReduceCollector/Day10-MapReduceCollector.iml" filepath="$PROJECT_DIR$/Day10-MapReduceCollector/Day10-MapReduceCollector.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day11-2FilesConcurrently/Day11-2FilesConcurrently.iml" filepath="$PROJECT_DIR$/Day11-2FilesConcurrently/Day11-2FilesConcurrently.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day11-ConcurrentAPIs/Day11-ConcurrentAPIs.iml" filepath="$PROJECT_DIR$/Day11-ConcurrentAPIs/Day11-ConcurrentAPIs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day11-multipleThreads/Day11-multipleThreads.iml" filepath="$PROJECT_DIR$/Day11-multipleThreads/Day11-multipleThreads.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day9-ArrayManipulationAPI/Day9-ArrayManipulationAPI.iml" filepath="$PROJECT_DIR$/Day9-ArrayManipulationAPI/Day9-ArrayManipulationAPI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day9-Calculator/Day9-Calculator.iml" filepath="$PROJECT_DIR$/Day9-Calculator/Day9-Calculator.iml" />
+    </modules>
+  </component>
+</project>
