@@ -1,4 +1,6 @@
 
+import org.junit.Test;
+
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -7,7 +9,8 @@ import java.util.stream.Collectors;
  * Created by choubeyp on 7/29/2017.
  */
 public class EmployeeAnalysis {
-    public static void main(String[] args) {
+    @Test
+    public void EmplyeeAnalysisTest (){
         List<Employee> list = Arrays.asList(new Employee(90, "Priyal", 40000),
                 new Employee(20, "Ritu", 46000),
                 new Employee(30, "Aakriti", 500000),
@@ -59,7 +62,6 @@ public class EmployeeAnalysis {
                     return (int)(e1.getSalary()-e2.getSalary());
                 })).get()
         );
-
 
     }
 }

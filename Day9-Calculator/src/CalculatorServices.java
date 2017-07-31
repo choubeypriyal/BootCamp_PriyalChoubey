@@ -1,8 +1,10 @@
+import org.junit.Test;
 /**
  * Created by choubeyp on 7/28/2017.
  */
 public class CalculatorServices {
-    public static void main(String[] args) {
+    @Test
+    public void CalculatorServicesTest(){
         Calculator calc = new Calculator();
         calc.compute((double operand1, double operand2) -> {               //addition
             System.out.println(operand1 + operand2);

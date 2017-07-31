@@ -1,10 +1,13 @@
+import org.junit.Test;
+
 import java.util.Arrays;
 import java.util.List;
 /**
  * Created by choubeyp on 7/28/2017.
  */
 public class ArrayManipulationService {
-    public static void main(String[] args) {
+    @Test
+    public void ArrayManipulationTest() {
         List<Integer> array = Arrays.asList(10, 50, 90, 200, 47, 122, 698, 567, 23, 132);
         //int[] array = new int[]{10, 50, 90, 200, 47, 122, 698, 567, 23, 132};
 
@@ -16,7 +19,7 @@ public class ArrayManipulationService {
 
         int m = holder.modify((int operand) -> {                        //if element is divisible by 2, update it to 0
             if (array.get(operand) % 2 == 0) {
-                array.set(operand,  0);
+                array.set(operand, 0);
             }
             return array.get(operand);
         }, 4);
@@ -24,7 +27,7 @@ public class ArrayManipulationService {
 
 
         System.out.println(holder.calculator((int sum) -> {           //gives sum of all elements
-            for (int i = 0; i < array.size() ; i++) {
+            for (int i = 0; i < array.size(); i++) {
                 sum += array.get(i);
             }
             return sum;
@@ -36,12 +39,13 @@ public class ArrayManipulationService {
         */
 
         holder.delete((int operand) -> {                   // test if element is divisible by 2, deletes it
-            if(array.get(operand) % 2 == 0)
-            return true;
+            if (array.get(operand) % 2 == 0)
+                return true;
             else
-            return false;
+                return false;
         }, 8);
-
+    }
+}
         /*manipulation.manipulate((int[] arr) -> {                    Before concepts were cleared
                     Arrays.sort(arr);
             for (int i : arr
@@ -77,6 +81,4 @@ public class ArrayManipulationService {
                 }
             System.out.println(sum);
         }, array); */
-    }
 
-}
