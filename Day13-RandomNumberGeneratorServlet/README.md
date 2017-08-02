@@ -1,0 +1,1 @@
+Create a Servlet which will generate random number on browser and publish current time, using tomcat server.
